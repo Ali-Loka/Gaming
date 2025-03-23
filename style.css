@@ -1,0 +1,269 @@
+body{
+ margin:0px;  
+ padding: 0px;
+    
+}
+*{
+font-family: cursive;     
+    
+}
+div.maincontent{
+    height:680px;
+    background-image: url(background.jpg);
+    background-size: cover;
+    
+}
+
+div.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba (0,0,0, 0.6);  
+    text-align: center;
+} 
+div.navbar a{
+    color: antiquewhite;
+
+}
+div.navbar button{
+    padding: 10px;
+    border-radius: 8x;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    
+}
+div.details{
+ text-align: center;
+ padding-top: 150px;
+background-color: transparent;
+ color:azure;
+    
+    
+}
+div.upcoming {
+    text-align: center;
+}
+div.game{
+  display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    
+    
+    
+}
+div.games {
+    width: 200px;
+    height:200px ;
+    border-radius: 200px;
+    margin: 20px;    
+    
+
+}
+div.game1{
+  background-image: url(fortnite.png);
+    background-size: cover;
+      
+    
+}
+div.game2{
+    background-image: url(pubg.jpg);
+    background-size: cover;
+    
+}
+div.game3{
+   background-image: url(supermario.jpg);
+    background-size: cover;
+     
+}
+div.game4{
+    background-image: url(batman.jpg);
+    background-size: cover;
+    
+}
+    
+div.maingame{
+ background-color: oldlace;
+ width: 60%;
+margin: auto;
+text-align: center;
+display: flex;
+justify-content: center;
+margin-top: 100px;
+border-radius: 15px;
+     
+    
+}
+div.maingame div.details{
+   color: darkgray;
+   margin-bottom: 200px;
+    
+}
+div.maingame div.image{
+    background-image: url(football.jpg);
+    width: 50%;
+    background-size: cover;
+    margin-left: 100px;
+    border-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+div.postes{
+    justify-content: center;
+    text-align: center;
+
+}
+div.posts{
+    width:60%;
+    display: flex;
+    margin: auto;
+    
+}
+div.post{
+    background-color: gray;
+    color: whitesmoke;
+    margin: 10px;
+    width: 45%;
+  
+}
+div.post1 div.img{
+    background-image: url('fortnite.png');
+    background-size: cover;
+    height: 200px;
+}
+div.post2 div.img{
+    background-image: url('pubg.jpg');
+    background-size: cover;
+    height: 200px;
+}
+div.post3 div.img{
+    background-image: url('batman.jpg');
+    background-size: cover;
+    height: 200px;
+}
+div.testis{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+div.testi{
+    margin: 20px;
+    background-color: dimgrey;
+    color: whitesmoke;
+    
+    text-align: center;
+    
+}
+div.test h1{
+    text-align: center;
+    margin: auto;
+}
+div.testi1 div.img{
+    
+
+    background-image: url(spiderman.jpg);
+   height: 80px;
+    width: 80px;
+    border-radius: 80px;
+    background-size: cover;
+    margin: auto
+    
+}
+div.testi2 div.img{
+   height: 80px;
+    width: 80px;
+    border-radius: 80px;
+    background-size: cover;
+    
+    background-image: url(logo.png);
+    margin: auto;
+      
+}
+div.pricing h2{
+    text-align: center;
+    margin: auto;
+    
+}
+div.prices{
+    
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    
+    
+    
+}
+div.price{
+    width: 30%;
+    background-color: darkcyan;
+    color: whitesmoke;
+    margin: 8px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 10px;
+    
+}
+div.price button{
+    padding: 9px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: whitesmoke;
+    border: 1px solid white;
+    
+}
+div.planprice{
+    background-color: cornflowerblue;
+    padding: 15px;
+}
+div.planprice h3{
+    margin: 0px;
+}
+footer{
+    background-color: grey;
+    color: whitesmoke;
+    text-align: right;
+    height: 40px;
+    padding-top: 9px;
+}
+div.join{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 70%;
+    margin-top: 100px
+    
+}
+div.join .img{
+    width:50%;
+    background-image: url('pubg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+form{
+    
+    width:60%;
+    margin: auto;
+    margin:10px;
+    
+}
+form input,form button {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    display: block;
+    margin: 10px;
+
+}
+form button {
+    background-color: dimgrey;
+    color: whitesmoke;
+    }
+
